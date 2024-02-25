@@ -2,3 +2,6 @@ Running: xsim.dir/FA_4bit_st_tb_no_0007_behav/xsimk.exe -simmode gui -wdb FA_4bi
 Design successfully loaded
 Design Loading Memory Usage: 7964 KB (Peak: 7964 KB)
 Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 8508 KB (Peak: 8508 KB)
+Simulation CPU Usage: 15 ms
