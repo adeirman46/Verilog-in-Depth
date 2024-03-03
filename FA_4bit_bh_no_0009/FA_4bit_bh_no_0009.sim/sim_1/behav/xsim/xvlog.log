@@ -2,5 +2,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Documents/Github Proj
 INFO: [VRFC 10-311] analyzing module FA_4bit_bh_no_0009
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Documents/Github Projects/Verilog-in-Depth/FA_4bit_bh_no_0009/FA_4bit_bh_no_0009.srcs/sim_1/new/FA_4bit_bh_tb_no_0009.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module FA_4bit_bh_tb_no_0009
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/user/Documents/Github Projects/Verilog-in-Depth/FA_4bit_bh_no_0009/FA_4bit_bh_no_0009.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

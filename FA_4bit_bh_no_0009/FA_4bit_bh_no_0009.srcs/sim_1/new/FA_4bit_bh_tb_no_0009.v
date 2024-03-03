@@ -27,23 +27,20 @@ wire [3:0] s;
 wire cout;
 
 FA_4bit_bh_no_0009 DUT(.a(a), .b(b), .cin(cin), .cout(cout), .s(s));
+initial 
+$monitor("time=%d \ta=%b \tb=%b \tcin=%b \ts=%b \tcout=%d", $time, a, b, cin, s, cout);
+
 initial begin
-    a = 4'b0000;
-    b = 4'b0000;
-    cin = 0;
-    #10;
-    a = 4'b0001;
-    b = 4'b0001;
-    #10;
-    a = 4'b0010;
-    b = 4'b0010;
-    #10;
-    a = 4'b0001;
-    b = 4'b0010;
-    #10;
-    a = 4'b0011;
-    b = 4'b1010;
-    #10;
-    $stop;
+    a=0;
+    b=0;
+    cin=0;
+    repeat(16) begin
+        #10 a=a+1;
+        repeat(16) begin
+            #10 b=b+1;
+            repeat(2)
+                #10 cin=~cin;
+        end
+    end
 end
 endmodule
